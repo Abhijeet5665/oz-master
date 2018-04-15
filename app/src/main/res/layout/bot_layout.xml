@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="48dp"
+    android:orientation="horizontal"
+    tools:ignore="MissingPrefix"
+    android:gravity="center_vertical|start">
+
+
+        <RelativeLayout
+            android:id="@+id/card_view_outer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:minWidth="30dp"
+            android:elevation="4dp"
+            android:background="@drawable/bot_layout"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:id="@+id/bot_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:singleLine="false"
+                android:text="Will You go there with me?"
+                android:textColor="@color/jet"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.2" />
+
+        </RelativeLayout>
+
+</LinearLayout>
